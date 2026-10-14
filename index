@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0c123b" />
+    <title>Mono Dice Privacy Policy</title>
+    <style>
+      :root {
+        --bg: #f8f9fd;
+        --surface: #ffffff;
+        --text: #0c123b;
+        --muted: #4a5285;
+        --border: #c1c6e5;
+        --accent: #455df5;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0c123b;
+          --surface: #1a1f4d;
+          --text: #ffffff;
+          --muted: #c1c6e5;
+          --border: rgba(167, 179, 255, 0.3);
+          --accent: #a7b3ff;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 32px 16px 64px;
+        font-family: ui-rounded, system-ui, -apple-system, "Segoe UI", sans-serif;
+        font-size: 17px;
+        line-height: 1.6;
+        color: var(--text);
+        background: var(--bg);
+      }
+      main {
+        max-width: 680px;
+        margin: 0 auto;
+      }
+      h1 {
+        margin: 0 0 4px;
+        font-size: 2rem;
+        line-height: 1.2;
+      }
+      h2 {
+        margin: 36px 0 8px;
+        font-size: 1.25rem;
+        line-height: 1.3;
+      }
+      p,
+      ul {
+        margin: 0 0 12px;
+      }
+      ul {
+        padding-left: 22px;
+      }
+      li + li {
+        margin-top: 6px;
+      }
+      a {
+        color: var(--accent);
+      }
+      .updated {
+        margin-bottom: 28px;
+        color: var(--muted);
+      }
+      .summary {
+        padding: 16px 20px;
+        border: 1.5px solid var(--border);
+        border-radius: 20px;
+        background: var(--surface);
+      }
+      .summary p:last-child {
+        margin-bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Mono Dice Privacy Policy</h1>
+      <p class="updated">Effective date: October 12, 2026</p>
+
+      <div class="summary">
+        <p><strong>In short:</strong> Mono Dice does not collect, store on any server, share, or sell any personal data. Everything the app remembers stays on your device.</p>
+      </div>
+
+      <h2>Information we collect</h2>
+      <p>None. Mono Dice has no accounts, no sign-in, no analytics, no advertising, and no tracking. The app does not send any information about you or your use of the app over the internet.</p>
+
+      <h2>Information stored on your device</h2>
+      <p>To work, the app saves a small amount of information locally on your device only:</p>
+      <ul>
+        <li><strong>Roll history</strong>: the results and times of your dice rolls and light rolls, used for the history lists and distribution charts.</li>
+        <li><strong>Settings</strong>: the handshake timer durations and light-roll rounds you choose.</li>
+        <li><strong>A temporary sound file</strong>: during a light roll, the app creates a short audio file of tick sounds in its cache folder. It contains no personal information and is replaced on the next roll.</li>
+      </ul>
+      <p>This information never leaves your device and is not accessible to us. You can delete your history at any time with the delete button on each history screen. Uninstalling the app removes all of it.</p>
+
+      <h2>Device features the app uses</h2>
+      <ul>
+        <li><strong>Sound</strong>: to play beeps and ticks. The app only plays sound; it does not use or request access to your microphone.</li>
+        <li><strong>Vibration</strong>: when a timer finishes and when you roll a pair.</li>
+        <li><strong>Keeping the screen on</strong>: the screen stays awake while the app is open.</li>
+      </ul>
+      <p>The app does not access your camera, microphone, location, contacts, photos, or files.</p>
+
+      <h2>Third parties</h2>
+      <p>Mono Dice does not include third-party analytics, advertising, or tracking services, and shares no data with third parties. The app is distributed through the Apple App Store and Google Play, which operate under their own privacy policies.</p>
+
+      <h2>Children</h2>
+      <p>Mono Dice does not collect personal information from anyone, including children under 13.</p>
+
+      <h2>Changes to this policy</h2>
+      <p>If this policy changes, the updated version will be posted on this page with a new effective date.</p>
+
+      <h2>Contact</h2>
+      <p>If you have questions about this policy, contact us at <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>.</p>
+    </main>
+  </body>
+</html>
